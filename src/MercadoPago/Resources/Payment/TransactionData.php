@@ -24,6 +24,9 @@ class TransactionData
     /** Unique transaction identifier within the point of interaction. */
     public ?string $transaction_id;
 
+    /** Subscription identifier for recurring payments. */
+    public ?string $subscription_id = null;
+
     /** Identifier of the bank transfer operation. */
     public ?int $bank_transfer_id;
 
